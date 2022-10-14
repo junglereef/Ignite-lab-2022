@@ -16,9 +16,10 @@ module.exports = {
     "storyStoreV7": true
   },
   viteFinal: (config, { configType }) => {
-    if (configType === 'PRODUCTION') (
-      config.base = '/Ignite-lab-2022'
-    )
+    if (configType === 'PRODUCTION') {
+      config.base = '/Ignite-lab-2022/'
+    }
+
     return config
   }
 }
